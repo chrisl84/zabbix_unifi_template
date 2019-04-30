@@ -7,7 +7,8 @@ Place the shell script and conf file in the configuration directory of the Zabbi
 
 Change the permissions so that the zabbix user can read the userparameter_unifi.conf file and read/execute the shell script.
 
-Edit the zabbix_agent.conf file and modify the Include the user_parameter_unifi.conf file
+Edit the zabbix_agent.conf file and modify the Include parameter to add the new userparameter_unifi.conf file.
+
 Include=/etc/zabbix/userparameter_unifi.conf
 
 Save and exit.
