@@ -1,6 +1,6 @@
 # Zabbix UniFi Template
 
-Shell script to poll the UniFi Controller API for the WiFi Experience. The script is called by the Zabbix Agent and then returned to the Zabbix Server.
+Shell script to poll the UniFi Controller API for the WiFi Experience. The script is called by the Zabbix Agent and the data is then returned to the Zabbix Server.
 
 # Installation
 Place the shell script and conf file in the configuration directory of the Zabbix Agent. 
